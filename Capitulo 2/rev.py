@@ -11,4 +11,7 @@ exer5 = (5**2)
 print(f"5**2 = {exer5}")
 
 print("expressões")
-expressao1
+expressao1 = ((22*3 - 6)**2)
+print(expressao1)
+expressao2 = (4**2 / 2)
+print(expressao2)
