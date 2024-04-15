@@ -15,3 +15,28 @@ expressao1 = ((22*3 - 6)**2)
 print(expressao1)
 expressao2 = (4**2 / 2)
 print(expressao2)
+
+print("prioridade de operações")
+print("exercício 1. faça o calculo baseado na prioridade dessa expressão: (10 % 3 * 10 ** 2 + 1 - 10 * 4 / 2)")
+
+prio1 = (10 % 3)
+print(f"10 % 3 = {prio1}")
+prio2 = (10 ** 2)
+print(f"10 ** 2 = {prio2}")
+prio3 = (4 / 2)
+print(f"4 / 2 = {prio3}")
+prio4 = ((prio1)*(prio2))
+print(f"10 % 3 * 10 ** 2 = {prio4}")
+prio5 = ((prio3)*10)
+print(f"4/2 * 10 = {prio5}")
+prio6 = ((prio4)+1)
+print(f"10 % 3 * 10 ** 2 + 1 = {prio6}")
+prio7 = ((prio6)-(prio5))
+print(f"(10 % 3 * 10 ** 2 + 1 - 10 * 4 / 2) = {prio7}")
+
+print("gabarito")
+resultado = (10 % 3 * 10 ** 2 + 1 - 10 * 4 / 2)
+print(resultado)
+
+if prio7 == resultado:
+    print("correto")
