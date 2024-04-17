@@ -48,3 +48,10 @@ salario = 1400
 aumento = 10
 
 print(1400 + (salario * aumento/100))
+
+#Exercício. Escreva um programa que exiba o resultado de 2a × 3b, onde a vale 3 e b vale 5.
+print("Exercício 2")
+dois_a = (2*3)
+tres_b = (3*5)
+
+print(dois_a * tres_b)
