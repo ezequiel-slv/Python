@@ -40,3 +40,11 @@ print(resultado)
 
 if prio7 == resultado:
     print("correto")
+    
+#Exercício 2.2 Digite a seguinte expressão e observe como a prioridade das operações é importante.
+print("Exercício aumento de salário")
+
+salario = 1400
+aumento = 10
+
+print(1400 + (salario * aumento/100))
