@@ -49,3 +49,30 @@ if media > 7:
     print("Aprovado")
 else:
     print("Reprovado")
+
+#função len
+print("função len")
+    
+print("Exercício: Calcular e imprimir o comprimento de uma string.")
+
+print(len("Testando"))
+
+#função indice
+print("função indice")
+
+print("Exercício: Imprimir o caractere no índice 5 da string.")
+
+indice = ('caractere')
+
+print(indice[5])
+
+#concatenação
+print("concatenação")
+
+print("Exercício")
+#Exercício: Concatenar uma letra "D" à string "ABC" e imprimir o resultado.
+l = ("ABC")
+print(l + "D")
+
+
+
