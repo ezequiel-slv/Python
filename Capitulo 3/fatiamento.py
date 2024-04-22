@@ -34,4 +34,4 @@ print(s[-1:]) #I
 
 print(s[-5:7]) #EFG
 
-print(s[s[-2:1]])
+print(s[-2:1])
