@@ -54,6 +54,7 @@ minuto = int(input("Digite o minuto: "))
 
 dia_hora = (dia == 24)
 
-hora_minuto = (hora == 60)
+hora_minuto = (hora == (60 * 60))
 
-minuto_segundo = (minuto == )
+minuto_segundo = (minuto == 60)
+
