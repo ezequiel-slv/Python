@@ -71,4 +71,14 @@ print(f"O acrescimo em cima do salário é de: {acrescimo}")
 '''
 #Exercício 3.11 Faça um programa que solicite o preço de uma mercadoria e o percentual de desconto. Exiba o valor do desconto e o preço a pagar.
 
-preco_merc = float(input())
+preco_merc = float(input("Digite o preço da mercadoria: "))
+
+perc_desconto = float(input("Digite o percentual de desconto: "))
+
+val_desc = (perc_desconto/100 * preco_merc)
+
+val_pag = preco_merc - (perc_desconto/100 * preco_merc)
+
+print(f"O valor do desconto e de: {val_desc}")
+
+print(f"O valor a ser pago é de: {val_pag}")
