@@ -1,5 +1,5 @@
 #entrada de dados
-
+'''
 print("Entrada de dados")
 x = float(input("Digite um valor: "))
 
@@ -47,14 +47,28 @@ print("Exercício 3.9")
 #Exercício 3.9 Escreva um programa que leia a quantidade de dias, horas, minutos e segundos do usuário. Calcule o total em segundos.
 
 dia = int(input("Digite o dia: "))
-
 hora = int(input("Digite a hora: "))
-
 minuto = int(input("Digite o minuto: "))
+segundos = int(input("Digite o segundo: "))
 
-dia_hora = (dia == 24)
+total_segundos = ((dia * 24 * 60 * 60) + (hora * 60 * 60) + (minuto * 60) + segundos)
 
-hora_minuto = (hora == (60 * 60))
+print(total_segundos)
 
-minuto_segundo = (minuto == 60)
+#Exercício 3.10 Faça um programa que calcule o aumento de um salário. Ele deve solicitar o valor do salário e a porcentagem do aumento. Exiba o valor do aumento e do novo salário.
 
+salario = float(input("Digite o valor d salário: "))
+
+aumento = float(input("Digite a porcetagem de aumento: "))
+
+aumento_salario = salario + ((aumento/100)*salario)
+
+acrescimo = (aumento/100 * salario)
+
+print(f"O valor do salário com aumento é de: {aumento_salario}")
+
+print(f"O acrescimo em cima do salário é de: {acrescimo}")
+'''
+#Exercício 3.11 Faça um programa que solicite o preço de uma mercadoria e o percentual de desconto. Exiba o valor do desconto e o preço a pagar.
+
+preco_merc = float(input())
