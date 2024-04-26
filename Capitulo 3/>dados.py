@@ -79,6 +79,6 @@ val_desc = (perc_desconto/100 * preco_merc)
 
 val_pag = preco_merc - (perc_desconto/100 * preco_merc)
 
-print(f"O valor do desconto e de: {val_desc}")
+print(f"O valor do desconto e de: {val_desc:.1f}")
 
-print(f"O valor a ser pago é de: {val_pag}")
+print(f"O valor a ser pago é de: {val_pag:.1f}")
