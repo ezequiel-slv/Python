@@ -68,7 +68,7 @@ acrescimo = (aumento/100 * salario)
 print(f"O valor do salário com aumento é de: {aumento_salario}")
 
 print(f"O acrescimo em cima do salário é de: {acrescimo}")
-'''
+
 #Exercício 3.11 Faça um programa que solicite o preço de uma mercadoria e o percentual de desconto. Exiba o valor do desconto e o preço a pagar.
 
 preco_merc = float(input("Digite o preço da mercadoria: "))
@@ -82,3 +82,16 @@ val_pag = preco_merc - (perc_desconto/100 * preco_merc)
 print(f"O valor do desconto e de: {val_desc:.1f}")
 
 print(f"O valor a ser pago é de: {val_pag:.1f}")
+'''
+#Exercício 3.12 Escreva um programa que calcule o tempo de uma viagem de carro.
+# Pergunte a distância a percorrer e a velocidade média esperada para a viagem.
+
+
+distancia = int(input("Informe a distância a percorrer da viagem em km: "))
+
+velocidade = int(input("Informe a velocidade do veiculo em km/h: "))
+
+tempo_viagem = distancia / velocidade
+
+print(f"O tempo da viagem em horas é de: {tempo_viagem}")
+
