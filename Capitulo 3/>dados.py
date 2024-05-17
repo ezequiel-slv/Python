@@ -1,5 +1,5 @@
 #entrada de dados
-
+'''
 print("Entrada de dados")
 x = float(input("Digite um valor: "))
 
@@ -117,7 +117,7 @@ reais_dias = 60 * dias
 reais_total = (60 * dias) + (0.15 * km)
 
 print(f"O valor total a se pagar pelo aluguel do carro é de: {reais_total} reais")
-
+'''
 
 #Exercício 3.15 Escreva um programa para calcular a redução do tempo de vida de um fumante. Pergunte a quantidade de cigarros fumados por dia e quantos anos ele já fumou. Considere que um fumante perde 10 minutos de vida a cada cigarro, calcule quantos dias de vida um fumante perderá. Exiba o total em dias.
 
@@ -125,6 +125,14 @@ qt_cigarros = int(input("Digite a quantidade de cigarros fumados pelo usuário: 
 
 
 anos_usados = int(input("Digite o tempo em anos em que o usuário fumou: "))
+
+total_cigarros = (qt_cigarros * anos_usados * 365 )
+
+min_perdidos = (total_cigarros * 10)
+
+dias_perdidos = (min_perdidos // 60 // 24)
+
+print(f"O usuario perdeu {dias_perdidos} dias de vida por conta do uso do cigarro")
 
 
 
