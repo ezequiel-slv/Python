@@ -31,7 +31,7 @@ if velocidade > 80:
     print(f'Você recebeu uma multa no valor de: {multa}R$')
 if velocidade <= 80:
     print('Veiculo liberado')
-'''
+
 salario = float(input('Digite o valor do seu salário: '))
 base = salario
 imposto = 0
@@ -41,3 +41,14 @@ if base > 3000:
 if base > 1000:
     imposto = imposto + ((base - 1000) * 0.20)
 print('Salário: R$%6.2f imposto a pagar: R$%6.2f' % (salario, imposto)) 
+'''
+
+num1 = int(input("Digite o primeiro valor: "))
+num2 = int(input("Digite o segundo valor: "))
+num3 = int(input("Digite o terceiro valor: "))
+
+maxnum = max(num1, num2, num3)
+minnum = min(num1, num2, num3)
+
+print(f"O maior número e o menor número, respectivamente são: {maxnum} e {minnum}")
+
