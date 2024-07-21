@@ -41,7 +41,6 @@ if base > 3000:
 if base > 1000:
     imposto = imposto + ((base - 1000) * 0.20)
 print('Salário: R$%6.2f imposto a pagar: R$%6.2f' % (salario, imposto)) 
-'''
 
 num1 = int(input("Digite o primeiro valor: "))
 num2 = int(input("Digite o segundo valor: "))
@@ -51,4 +50,15 @@ maxnum = max(num1, num2, num3)
 minnum = min(num1, num2, num3)
 
 print(f"O maior número e o menor número, respectivamente são: {maxnum} e {minnum}")
+'''
+#Exercício 4.5 Execute o programa (Listagem 4.5) e experimente alguns valores. Verifique se os resultados foram os mesmos do programa anterior 
 
+salario = int(input('Digite seu salário: '))
+
+dezporc = salario * 1.10
+quinzeporc = salario  * 1.15
+
+if salario > 1250:
+    print(dezporc)
+else:
+    print(quinzeporc)
