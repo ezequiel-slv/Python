@@ -71,3 +71,16 @@ if salario > 1250:
     print(dezporc)
 else:
     print(quinzeporc)
+
+#Exercício 4.6 Escreva um programa que pergunte a distância que um passageiro deseja percorrer em km. Calcule o preço da passagem, cobrando R$ 0,50 por km para viagens de até de 200 km, e R$ 0,45 para viagens mais longas.
+
+distancia = float(input('Digite a distância em km que o carro percorreu: '))
+
+passagem = 100
+cobrancaum = (0.50 * distancia) + passagem
+cobrancadois = (0.45 * distancia) + passagem
+
+if distancia <= 200:
+    print(f"O valor a ser cobrado será de: {cobrancaum} Reais")
+elif distancia >200:
+    print(f"O valor a ser cobrado será de: {cobrancadois} Reais")
